@@ -44,4 +44,4 @@ src/fx_vec.c:
     .text       start:0x01ffe9f0 end:0x01ffeae8
 
 src/mi_dma_gxcommand.c:
-    .text       start:0x01ffedf8 end:0x02000800
+    .text       start:0x01ffedf8 end:0x01ffef14

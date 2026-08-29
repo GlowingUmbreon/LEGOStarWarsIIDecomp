@@ -1,3 +1,9 @@
 extract
 *.nds
-build
+build/*
+objdiff.json
+objdiff_report.json
+.zig-cache
+
+# Keep .gitkeep files
+!/**/.gitkeep
