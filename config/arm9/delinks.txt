@@ -12,6 +12,12 @@ src/Main.cpp:
 src/Main.h:
     .text       start:0x02001820 end:0x02001878
 
+src/memory.h:
+    .text       start:0x02001970 end:0x02001a18
+
+src/gx.h:
+    .text       start:0x02001a60 end:0x02001adc
+
 src/Actor.cpp:
     .text       start:0x02001cb0 end:0x02001d80
 
@@ -48,11 +54,20 @@ src/PaperdollActor.h:
 src/AnimPlayer.inl:
     .text       start:0x02005838 end:0x020058bc
 
+src/kernel_inline.h:
+    .text       start:0x020058f0 end:0x02005980
+
 src/AnimAsset.h:
     .text       start:0x02005b04 end:0x02005b74
 
+src/res_struct_accessor_inline.h:
+    .text       start:0x0200697c end:0x02006a7c
+
 src/Assert.h:
     .text       start:0x02007038 end:0x02007130
+
+src/fx_trig.h:
+    .text       start:0x02007500 end:0x02007668
 
 src/ActorCollision.cpp:
     .text       start:0x02007668 end:0x02008aa8
@@ -72,8 +87,14 @@ src/ActorCollisionTrigger.cpp:
 src/Vector3.inl:
     .text       start:0x0200b584 end:0x0200b638
 
+src/res_struct_accessor_inline.h:
+    .text       start:0x0200b820 end:0x0200b8f4
+
 src/PaperdollActor.cpp:
     .text       start:0x0200b8f4 end:0x0200c090
+
+src/g3imm.h:
+    .text       start:0x0200c0a8 end:0x0200c130
 
 src/fx_mtx44.h:
     .text       start:0x0200c130 end:0x0201e63c
@@ -92,6 +113,9 @@ src/ActorTextureSet.h:
 
 src/ActorObject_Camera.cpp:
     .text       start:0x0201f58c end:0x0201ff78
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x0201ff78 end:0x020200ec
 
 src/ActorObject_Door.cpp:
     .text       start:0x020200ec end:0x02020478
@@ -119,6 +143,9 @@ src/ActorObject_Spawn.cpp:
 
 src/ActorObject_Turret.cpp:
     .text       start:0x02023050 end:0x02023f20
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x02023f20 end:0x02024024
 
 src/AINavigate.cpp:
     .text       start:0x02024024 end:0x020244a0
@@ -405,17 +432,32 @@ src/MenuActorManager.cpp:
 src/MenuManager.cpp:
     .text       start:0x02050848 end:0x020515dc
 
+src/g3imm.h:
+    .text       start:0x02051adc end:0x02051bcc
+
 src/Main.h:
     .text       start:0x02051c38 end:0x02051c90
 
 src/MenuManager.cpp:
     .text       start:0x02051c90 end:0x02051e6c
 
+src/gx_bgcnt.h:
+    .text       start:0x02052078 end:0x0205227c
+
+src/gx_capture.h:
+    .text       start:0x0205227c end:0x020525a8
+
+src/gx.h:
+    .text       start:0x020525a8 end:0x0205264c
+
 src/MenuManager.h:
     .text       start:0x020526b0 end:0x02052788
 
 src/MenuManager.cpp:
     .text       start:0x02052788 end:0x02052f04
+
+src/fx_trig.h:
+    .text       start:0x02053224 end:0x020533ac
 
 src/OAM.cpp:
     .text       start:0x020533ac end:0x020536f4
@@ -431,6 +473,9 @@ src/PointLights.cpp:
 
 src/ProcessManager.cpp:
     .text       start:0x020554e8 end:0x0205573c
+
+src/memory.h:
+    .text       start:0x0205589c end:0x02055944
 
 src/RealTimeClock.cpp:
     .text       start:0x02056174 end:0x0205628c
@@ -489,14 +534,26 @@ src/MenuManager.h:
 src/FreePlayMenu.cpp:
     .text       start:0x02061014 end:0x02061444
 
+src/gx_bgcnt.h:
+    .text       start:0x02062c60 end:0x02062e90
+
 src/infoMenu.cpp:
     .text       start:0x02062e90 end:0x02062f6c
+
+src/MBLobby.cpp:
+    .text       start:0x020635a0 end:0x0206369c
 
 src/MBLobby.cpp:
     .text       start:0x02063a04 end:0x02063b80
 
 src/Sandbox.cpp:
     .text       start:0x02063e48 end:0x02063ed0
+
+src/gx_bgcnt.h:
+    .text       start:0x02064cbc end:0x02064e80
+
+src/gx_capture.h:
+    .text       start:0x02064e80 end:0x020651ac
 
 src/StoryModeMenu.cpp:
     .text       start:0x02065338 end:0x02065784
@@ -564,6 +621,9 @@ src/HudDisplay.cpp:
 src/KitManager.cpp:
     .text       start:0x02073bdc end:0x02073cd8
 
+src/gx_bgcnt.h:
+    .text       start:0x0207437c end:0x0207441c
+
 src/EquipmentTab.cpp:
     .text       start:0x0207441c end:0x020746fc
 
@@ -578,6 +638,9 @@ src/Quintessence.h:
 
 src/Scene.cpp:
     .text       start:0x020756d8 end:0x02076b00
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x02076c0c end:0x02076c54
 
 src/Assert.h:
     .text       start:0x02076e50 end:0x02076f48
@@ -596,6 +659,9 @@ src/SceneTab.cpp:
 
 src/SensesTab.cpp:
     .text       start:0x0207a430 end:0x0207a548
+
+src/gecom_inline.h:
+    .text       start:0x0207aabc end:0x0207b5c4
 
 src/StudManager.cpp:
     .text       start:0x0207b6fc end:0x0207b854
@@ -642,6 +708,12 @@ src/Camera3d.cpp:
 src/DebugGeometry.cpp:
     .text       start:0x0208b310 end:0x0208c0f0
 
+src/gecom_inline.h:
+    .text       start:0x0208c0f0 end:0x0208c820
+
+src/fx_mtx33.h:
+    .text       start:0x0208c820 end:0x0208c86c
+
 src/GeomAsset.cpp:
     .text       start:0x0208c8e4 end:0x0208c9f4
 
@@ -669,17 +741,29 @@ src/GeomAssetManager.cpp:
 src/GeomTextureManager.cpp:
     .text       start:0x0208e890 end:0x0208ec54
 
+src/g3imm.h:
+    .text       start:0x0208fcc8 end:0x020901e0
+
 src/NitroEngine.cpp:
     .text       start:0x0209025c end:0x020915dc
 
 src/RigidGeometry.cpp:
     .text       start:0x02091648 end:0x02091904
 
+src/fx_mtx44.h:
+    .text       start:0x020920d0 end:0x0209257c
+
 src/WirelessManager.cpp:
     .text       start:0x020937cc end:0x02094a48
 
 src/CommSync.cpp:
     .text       start:0x02095400 end:0x02095638
+
+src/memory.h:
+    .text       start:0x02095890 end:0x02095938
+
+src/MBP.cpp:
+    .text       start:0x02095c58 end:0x02096968
 
 src/MultiplayerPackets.cpp:
     .text       start:0x02096968 end:0x02097b1c
@@ -720,6 +804,9 @@ src/StaticList.h:
 src/tempest.cpp:
     .text       start:0x0209d824 end:0x0209d97c
 
+src/gecom_inline.h:
+    .text       start:0x0209e408 end:0x0209f0f4
+
 src/tempest_render.cpp:
     .text       start:0x0209f188 end:0x0209f5f8
 
@@ -728,3 +815,417 @@ src/StaticList.h:
 
 src/tempest_render.cpp:
     .text       start:0x0209fd30 end:0x020a01b0
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020a01b0 end:0x020a03c4
+
+src/list.c:
+    .text       start:0x020a06f0 end:0x020a08a0
+
+src/heapcommon.c:
+    .text       start:0x020a08a0 end:0x020a0a14
+
+src/memory.h:
+    .text       start:0x020a0a14 end:0x020a0b1c
+
+src/expheap.c:
+    .text       start:0x020a0f28 end:0x020a19fc
+
+src/memory.h:
+    .text       start:0x020a1cac end:0x020a2210
+
+src/frameheap.c:
+    .text       start:0x020a2344 end:0x020a24a8
+
+src/unitheap.c:
+    .text       start:0x020a2518 end:0x020a2654
+
+src/allocator.c:
+    .text       start:0x020a2674 end:0x020a270c
+
+src/gfd_TexVramMan.c:
+    .text       start:0x020a2734 end:0x020a278c
+
+src/gfd_PlttVramMan.c:
+    .text       start:0x020a278c end:0x020a27e4
+
+src/gfd_VramTransferManager.c:
+    .text       start:0x020a28c0 end:0x020a2b38
+
+src/gfdi_LinkedListVramMan_Common.c:
+    .text       start:0x020a2e3c end:0x020a35e8
+
+src/gfd_LinkedListTexVramMan.c:
+    .text       start:0x020a35e8 end:0x020a3d68
+
+src/gfd_LinkedListPlttVramMan.c:
+    .text       start:0x020a3dfc end:0x020a4158
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020a4160 end:0x020a425c
+
+src/kernel.c:
+    .text       start:0x020a425c end:0x020a435c
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020a435c end:0x020a4434
+
+src/kernel.c:
+    .text       start:0x020a4434 end:0x020a4558
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020a4558 end:0x020a45e8
+
+src/kernel.c:
+    .text       start:0x020a45e8 end:0x020a4700
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020a4700 end:0x020a4800
+
+src/kernel.c:
+    .text       start:0x020a4800 end:0x020a539c
+
+src/kernel_inline.h:
+    .text       start:0x020a539c end:0x020a53f8
+
+src/kernel.c:
+    .text       start:0x020a5488 end:0x020a5780
+
+src/memory.h:
+    .text       start:0x020a57ac end:0x020a5854
+
+src/kernel.c:
+    .text       start:0x020a5854 end:0x020a5ae8
+
+src/fx_mtx43.h:
+    .text       start:0x020a5be0 end:0x020a5c68
+
+src/glbstate.c:
+    .text       start:0x020a5cf8 end:0x020a61d0
+
+src/fx_mtx44.h:
+    .text       start:0x020a622c end:0x020a62fc
+
+src/glbstate.c:
+    .text       start:0x020a62fc end:0x020a67f8
+
+src/gecom_inline.h:
+    .text       start:0x020a67f8 end:0x020a6900
+
+src/glbstate.c:
+    .text       start:0x020a6900 end:0x020a6e28
+
+src/fx_mtx33.h:
+    .text       start:0x020a7060 end:0x020a70a8
+
+src/fx_mtx43.h:
+    .text       start:0x020a70a8 end:0x020a70f0
+
+src/anm.c:
+    .text       start:0x020a70f0 end:0x020a7268
+
+src/sbc.c:
+    .text       start:0x020a7268 end:0x020a915c
+
+src/1mat1shp.c:
+    .text       start:0x020a915c end:0x020a9500
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020a9500 end:0x020a9648
+
+src/gecom_inline.h:
+    .text       start:0x020a9648 end:0x020a96bc
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020a96bc end:0x020a9774
+
+src/gecom.c:
+    .text       start:0x020a97b8 end:0x020a98d4
+
+src/util.c:
+    .text       start:0x020a98d4 end:0x020aa0ac
+
+src/g3x.h:
+    .text       start:0x020aa0e4 end:0x020aa178
+
+src/g3imm.h:
+    .text       start:0x020aa178 end:0x020aa2f4
+
+src/fx_mtx44.h:
+    .text       start:0x020aa2f4 end:0x020aa37c
+
+src/mem.c:
+    .text       start:0x020aa3a4 end:0x020aa4c8
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020aa4c8 end:0x020aa610
+
+src/model.c:
+    .text       start:0x020aa610 end:0x020aa7a0
+
+src/res_struct_accessor.c:
+    .text       start:0x020aa7a0 end:0x020aab3c
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020aab3c end:0x020aabcc
+
+src/res_struct_accessor.c:
+    .text       start:0x020aabcc end:0x020aadc8
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020aadc8 end:0x020aaee8
+
+src/res_struct_accessor_anm.c:
+    .text       start:0x020aaee8 end:0x020ab3b0
+
+src/nsbca.c:
+    .text       start:0x020ab3b0 end:0x020ac298
+
+src/nsbma.c:
+    .text       start:0x020ac298 end:0x020ac564
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020ac564 end:0x020ac5f4
+
+src/nsbma.c:
+    .text       start:0x020ac608 end:0x020ac754
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020ac754 end:0x020ac86c
+
+src/memory.h:
+    .text       start:0x020ac898 end:0x020ac940
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020ac940 end:0x020ac988
+
+src/nsbta.c:
+    .text       start:0x020acd44 end:0x020acf7c
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020acf7c end:0x020ad094
+
+src/memory.h:
+    .text       start:0x020ad0c0 end:0x020ad168
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020ad168 end:0x020ad1b0
+
+src/nsbta.c:
+    .text       start:0x020ad1b0 end:0x020ad3c8
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020ad3c8 end:0x020ad458
+
+src/nsbta.c:
+    .text       start:0x020ad458 end:0x020ad6a0
+
+src/nsbtp.c:
+    .text       start:0x020ad85c end:0x020adb50
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020adb50 end:0x020adbe0
+
+src/nsbtp.c:
+    .text       start:0x020adbe0 end:0x020ade70
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020ade70 end:0x020adf00
+
+src/nsbtp.c:
+    .text       start:0x020adf00 end:0x020adfe8
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020adfe8 end:0x020ae100
+
+src/memory.h:
+    .text       start:0x020ae12c end:0x020ae1d4
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020ae1d4 end:0x020ae21c
+
+src/nsbva.c:
+    .text       start:0x020ae21c end:0x020ae314
+
+src/res_struct_accessor_inline.h:
+    .text       start:0x020ae3a8 end:0x020ae3ec
+
+src/maya.c:
+    .text       start:0x020ae3ec end:0x020ae59c
+
+src/fx_mtx33.c:
+    .text       start:0x020aeab8 end:0x020aedd0
+
+src/fx_mtx43.c:
+    .text       start:0x020aee2c end:0x020af5ac
+
+src/fx_mtx44.c:
+    .text       start:0x020af680 end:0x020afa10
+
+src/fx_cp.c:
+    .text       start:0x020afa10 end:0x020afd00
+
+src/fx_vec.c:
+    .text       start:0x020afd74 end:0x020b00a0
+
+src/gx.c:
+    .text       start:0x020b0364 end:0x020b0730
+
+src/gxstate.c:
+    .text       start:0x020b0730 end:0x020b209c
+
+src/gx_vramcnt.c:
+    .text       start:0x020b2620 end:0x020b3a14
+
+src/gx_bgcnt.c:
+    .text       start:0x020b3cc4 end:0x020b3fe4
+
+src/g3imm.c:
+    .text       start:0x020b408c end:0x020b419c
+
+src/g3x.c:
+    .text       start:0x020b4230 end:0x020b4a7c
+
+src/g3_util.c:
+    .text       start:0x020b4a7c end:0x020b50fc
+
+src/gx_load2d.c:
+    .text       start:0x020b5148 end:0x020b7a70
+
+src/gx_load3d.c:
+    .text       start:0x020b7ac8 end:0x020b8750
+
+src/os_spinLock.c:
+    .text       start:0x020b8bc0 end:0x020b8eb4
+
+src/os_thread.c:
+    .text       start:0x020b9d64 end:0x020ba64c
+
+src/os_mutex.c:
+    .text       start:0x020bac30 end:0x020bafd8
+
+src/os_arena.c:
+    .text       start:0x020bb0c0 end:0x020bb670
+
+src/os_tick.c:
+    .text       start:0x020bbb4c end:0x020bbd8c
+
+src/os_alarm.c:
+    .text       start:0x020bbd8c end:0x020bbe30
+
+src/os_reset.c:
+    .text       start:0x020bbf50 end:0x020bbfa8
+
+src/memory.h:
+    .text       start:0x020bc010 end:0x020bc110
+
+src/mi_wram.c:
+    .text       start:0x020bc2c4 end:0x020bc300
+
+src/mi_dma.c:
+    .text       start:0x020bc300 end:0x020bce88
+
+src/mi_dma_gxcommand.c:
+    .text       start:0x020bcec8 end:0x020bcfec
+
+src/mi_card.c:
+    .text       start:0x020bd578 end:0x020bd64c
+
+src/snd_command.c:
+    .text       start:0x020bda68 end:0x020bdd50
+
+src/snd_alarm.c:
+    .text       start:0x020bdf20 end:0x020be010
+
+src/snd_work.c:
+    .text       start:0x020be010 end:0x020be06c
+
+src/pxi_fifo.c:
+    .text       start:0x020be19c end:0x020be36c
+
+src/fs_command.c:
+    .text       start:0x020be60c end:0x020be6a0
+
+src/fs_command_default.c:
+    .text       start:0x020be74c end:0x020beb44
+
+src/fs_file.c:
+    .text       start:0x020bf608 end:0x020c01c0
+
+src/tp.c:
+    .text       start:0x020c02c4 end:0x020c1098
+
+src/external.c:
+    .text       start:0x020c2320 end:0x020c25fc
+
+src/card_common.c:
+    .text       start:0x020c26f8 end:0x020c2b30
+
+src/card_backup.c:
+    .text       start:0x020c2b78 end:0x020c2d1c
+
+src/card_rom.c:
+    .text       start:0x020c2f40 end:0x020c305c
+
+src/card_request.c:
+    .text       start:0x020c34a8 end:0x020c3508
+
+src/card_pullOut.c:
+    .text       start:0x020c35ac end:0x020c362c
+
+src/wm_system.c:
+    .text       start:0x020c3664 end:0x020c41cc
+
+src/wm_sync.c:
+    .text       start:0x020c4200 end:0x020c4780
+
+src/wm_standard.c:
+    .text       start:0x020c4828 end:0x020c4fa0
+
+src/wm_mp.c:
+    .text       start:0x020c5170 end:0x020c5738
+
+src/wm_ds.c:
+    .text       start:0x020c5774 end:0x020c69dc
+
+src/wm_etc.c:
+    .text       start:0x020c6b20 end:0x020c6d14
+
+src/mb_parent.c:
+    .text       start:0x020c6fa0 end:0x020c841c
+
+src/mb_fileinfo.c:
+    .text       start:0x020c841c end:0x020c93b4
+
+src/memory.h:
+    .text       start:0x020c9438 end:0x020c9f58
+
+src/mb_wm_base.c:
+    .text       start:0x020ca1bc end:0x020ca45c
+
+src/memory.h:
+    .text       start:0x020ca550 end:0x020ca818
+
+src/mb_wm_base.c:
+    .text       start:0x020ca818 end:0x020cae08
+
+src/memory.h:
+    .text       start:0x020cae80 end:0x020cb748
+
+src/mb_wm_base.c:
+    .text       start:0x020cb7c0 end:0x020cc1a8
+
+src/mb_cache.c:
+    .text       start:0x020cc24c end:0x020cc2e0
+
+src/mb_task.c:
+    .text       start:0x020cc348 end:0x020cc670
+
+src/exMemory.h:
+    .text       start:0x020ccc1c end:0x020cccac
+
+src/ctrdg_proc.c:
+    .text       start:0x020cce70 end:0x020ccf38
+
+src/exMemory.h:
+    .text       start:0x020ccf38 end:0x020cd16c

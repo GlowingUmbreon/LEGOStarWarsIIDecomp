@@ -21,3 +21,27 @@ src/SolidMotion.cpp:
 
 src/GripFrameDataManager.cpp:
     .text       start:0x01ffa86c end:0x01ffaa08
+
+src/anm.c:
+    .text       start:0x01ffb7dc end:0x01ffbc9c
+
+src/sbc.c:
+    .text       start:0x01ffbc9c end:0x01ffd5e0
+
+src/memory.h:
+    .text       start:0x01ffd5e0 end:0x01ffd880
+
+src/nsbca.c:
+    .text       start:0x01ffda18 end:0x01ffe61c
+
+src/basic.c:
+    .text       start:0x01ffe61c end:0x01ffe738
+
+src/maya.c:
+    .text       start:0x01ffe738 end:0x01ffe91c
+
+src/fx_vec.c:
+    .text       start:0x01ffe9f0 end:0x01ffeae8
+
+src/mi_dma_gxcommand.c:
+    .text       start:0x01ffedf8 end:0x02000800
