@@ -1,2 +1,23 @@
     .text       start:0x01ff8000 end:0x01ffef14 kind:code align:32
     .bss        start:0x01ffef20 end:0x01ffef20 kind:bss align:32
+
+src/ActorCollision.cpp:
+    .text       start:0x01ff84a8 end:0x01ff8900
+
+src/PaperdollActor.cpp:
+    .text       start:0x01ff8968 end:0x01ff8a6c
+
+src/ActorManager.cpp:
+    .text       start:0x01ff8a6c end:0x01ff8fa4
+
+src/ControllerManager.cpp:
+    .text       start:0x01ff91d4 end:0x01ff92c0
+
+src/BSP.cpp:
+    .text       start:0x01ff9474 end:0x01ff9df4
+
+src/SolidMotion.cpp:
+    .text       start:0x01ffa378 end:0x01ffa86c
+
+src/GripFrameDataManager.cpp:
+    .text       start:0x01ffa86c end:0x01ffaa08

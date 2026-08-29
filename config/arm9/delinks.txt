@@ -6,5 +6,725 @@
     .data       start:0x020e4c80 end:0x022276e0 kind:data align:32
     .bss        start:0x022276e0 end:0x0223c280 kind:bss align:32
 
+src/Main.cpp:
+    .text       start:0x02001428 end:0x02001820
+
+src/Main.h:
+    .text       start:0x02001820 end:0x02001878
+
+src/Actor.cpp:
+    .text       start:0x02001cb0 end:0x02001d80
+
+src/Assert.h:
+    .text       start:0x020021f4 end:0x020022ec
+
+src/HotspotList.h:
+    .text       start:0x02002744 end:0x020027d4
+
+src/Vector3.inl:
+    .text       start:0x02002a40 end:0x02002c98
+
+src/ActorCharacter.cpp:
+    .text       start:0x02003488 end:0x020037d8
+
+src/GeomAsset.inl:
+    .text       start:0x020037f4 end:0x0200384c
+
+src/ActorCharacter.cpp:
+    .text       start:0x02003b44 end:0x02003f68
+
+src/ActorPhysics.h:
+    .text       start:0x02003f68 end:0x02003fd8
+
+src/MathDS.inl:
+    .text       start:0x02004204 end:0x0200428c
+
+src/ActorCharacter.cpp:
+    .text       start:0x02004d30 end:0x0200512c
+
+src/PaperdollActor.h:
+    .text       start:0x020055d8 end:0x02005638
+
+src/AnimPlayer.inl:
+    .text       start:0x02005838 end:0x020058bc
+
+src/AnimAsset.h:
+    .text       start:0x02005b04 end:0x02005b74
+
+src/Assert.h:
+    .text       start:0x02007038 end:0x02007130
+
+src/ActorCollision.cpp:
+    .text       start:0x02007668 end:0x02008aa8
+
+src/Vector3.inl:
+    .text       start:0x02008aa8 end:0x02008b10
+
+src/ActorCollision.cpp:
+    .text       start:0x02009014 end:0x0200a618
+
+src/ActorFlashEffect.cpp:
+    .text       start:0x0200ab9c end:0x0200b3d0
+
+src/ActorCollisionTrigger.cpp:
+    .text       start:0x0200b430 end:0x0200b4b0
+
+src/Vector3.inl:
+    .text       start:0x0200b584 end:0x0200b638
+
+src/PaperdollActor.cpp:
+    .text       start:0x0200b8f4 end:0x0200c090
+
 src/fx_mtx44.h:
     .text       start:0x0200c130 end:0x0201e63c
+
+src/Vector3.h:
+    .text       start:0x0201e9cc end:0x0201ea94
+
+src/MultiActorManager.cpp:
+    .text       start:0x0201eda4 end:0x0201eee8
+
+src/ActorForceGlow.cpp:
+    .text       start:0x0201f090 end:0x0201f1f4
+
+src/ActorTextureSet.h:
+    .text       start:0x0201f1f4 end:0x0201f250
+
+src/ActorObject_Camera.cpp:
+    .text       start:0x0201f58c end:0x0201ff78
+
+src/ActorObject_Door.cpp:
+    .text       start:0x020200ec end:0x02020478
+
+src/ActorObject_DoorControl.cpp:
+    .text       start:0x020205b8 end:0x02020b6c
+
+src/ActorCharacter.inl:
+    .text       start:0x02020b6c end:0x02020bcc
+
+src/ActorObject_HelmetDispenser.cpp:
+    .text       start:0x02020cd8 end:0x02020e84
+
+src/ActorObject_DoorLever.cpp:
+    .text       start:0x02021014 end:0x02021218
+
+src/ActorObject_ForceField.cpp:
+    .text       start:0x020213b0 end:0x02021728
+
+src/ActorObject_Pushable.cpp:
+    .text       start:0x020219b8 end:0x02022574
+
+src/ActorObject_Spawn.cpp:
+    .text       start:0x020228b0 end:0x02022f1c
+
+src/ActorObject_Turret.cpp:
+    .text       start:0x02023050 end:0x02023f20
+
+src/AINavigate.cpp:
+    .text       start:0x02024024 end:0x020244a0
+
+src/Controller.cpp:
+    .text       start:0x020247c0 end:0x02024810
+
+src/ControllerActionChain.cpp:
+    .text       start:0x02024a24 end:0x02024ba0
+
+src/ControllerManager.cpp:
+    .text       start:0x02024e08 end:0x02026aa8
+
+src/ControllerManagerActions.cpp:
+    .text       start:0x02027abc end:0x02028348
+
+src/ControllerMind.cpp:
+    .text       start:0x02028a18 end:0x02028ee4
+
+src/ControllerSenses.cpp:
+    .text       start:0x0202916c end:0x02029484
+
+src/ControllerFollow.cpp:
+    .text       start:0x02029970 end:0x02029b6c
+
+src/ControllerThrow.cpp:
+    .text       start:0x02029c6c end:0x02029fc4
+
+src/IdleController.cpp:
+    .text       start:0x0202a18c end:0x0202a200
+
+src/LookAtController.cpp:
+    .text       start:0x0202a43c end:0x0202a4d8
+
+src/GradualLookAtController.cpp:
+    .text       start:0x0202a72c end:0x0202a870
+
+src/MoveToController.cpp:
+    .text       start:0x0202a9c4 end:0x0202abd4
+
+src/ControllerMelee.cpp:
+    .text       start:0x0202ad50 end:0x0202adc8
+
+src/ControllerPatrol.cpp:
+    .text       start:0x0202b22c end:0x0202b2e0
+
+src/ControllerMoveRelative.cpp:
+    .text       start:0x0202b3fc end:0x0202b79c
+
+src/ControllerFollowHero.cpp:
+    .text       start:0x0202b88c end:0x0202bcec
+
+src/Quintessence.h:
+    .text       start:0x0202c7cc end:0x0202c86c
+
+src/ControllerHanCarboniteArena.cpp:
+    .text       start:0x0202c894 end:0x0202c954
+
+src/ControllerLeaveSpawn.cpp:
+    .text       start:0x0202ca38 end:0x0202ccdc
+
+src/AINavigate.inl:
+    .text       start:0x0202d054 end:0x0202d108
+
+src/AStar.inl:
+    .text       start:0x0202d108 end:0x0202d17c
+
+src/AINavigate.inl:
+    .text       start:0x0202d23c end:0x0202d32c
+
+src/ControllerWaypoint.cpp:
+    .text       start:0x0202d32c end:0x0202d420
+
+src/ControllerHeroHide.cpp:
+    .text       start:0x0202d8c8 end:0x0202d938
+
+src/ControllerDrawReplaceWeapon.cpp:
+    .text       start:0x0202dc60 end:0x0202dcc4
+
+src/AnimationController.cpp:
+    .text       start:0x0202df10 end:0x0202e028
+
+src/NPCController.cpp:
+    .text       start:0x0202e198 end:0x0202e218
+
+src/WaitForController.cpp:
+    .text       start:0x0202e3f8 end:0x0202e468
+
+src/ControllerDeath.cpp:
+    .text       start:0x0202e794 end:0x0202ebc8
+
+src/ControllerArmsOff.cpp:
+    .text       start:0x0202ed80 end:0x0202ee68
+
+src/ControllerStun.cpp:
+    .text       start:0x0202f094 end:0x0202f0f8
+
+src/ControllerUseForce.cpp:
+    .text       start:0x0202f5ac end:0x0202f61c
+
+src/ControllerGrapple.cpp:
+    .text       start:0x0202faf0 end:0x0202fcec
+
+src/ControllerRepair.cpp:
+    .text       start:0x02030000 end:0x02030070
+
+src/ControllerPush.cpp:
+    .text       start:0x020303cc end:0x0203043c
+
+src/ControllerUseObject.cpp:
+    .text       start:0x02030610 end:0x0203092c
+
+src/ControllerForceChoked.cpp:
+    .text       start:0x02030de4 end:0x02030e98
+
+src/Flagset.h:
+    .text       start:0x0203126c end:0x020312ec
+
+src/ControllerHeroMelee.cpp:
+    .text       start:0x02031a9c end:0x02032880
+
+src/ControllerHeroChewieMelee.cpp:
+    .text       start:0x02032ae8 end:0x02032b58
+
+src/ControllerHeroJump.cpp:
+    .text       start:0x020333d8 end:0x02033e28
+
+src/ControllerHeroHover.cpp:
+    .text       start:0x020343d4 end:0x02034454
+
+src/ControllerHeroEvade.cpp:
+    .text       start:0x020346b0 end:0x02034720
+
+src/ControllerHeroBlock.cpp:
+    .text       start:0x020349d4 end:0x02034e38
+
+src/ControllerHeroVehicle.cpp:
+    .text       start:0x020360c4 end:0x02036968
+
+src/Flagset.h:
+    .text       start:0x02037118 end:0x02037198
+
+src/ControllerMindTrick.cpp:
+    .text       start:0x020375e8 end:0x02037658
+
+src/AABox.cpp:
+    .text       start:0x02037738 end:0x020377dc
+
+src/Vector3.inl:
+    .text       start:0x020382c8 end:0x02038330
+
+src/BSP.cpp:
+    .text       start:0x020384b4 end:0x02038d30
+
+src/Vector3.inl:
+    .text       start:0x02038e20 end:0x02038ea0
+
+src/CCylinder.cpp:
+    .text       start:0x02039050 end:0x02039114
+
+src/CollisionTest.cpp:
+    .text       start:0x02039c88 end:0x0203a1fc
+
+src/SolidMotion.cpp:
+    .text       start:0x0203a37c end:0x0203b41c
+
+src/Sphere.cpp:
+    .text       start:0x0203b4fc end:0x0203b564
+
+src/Walker.cpp:
+    .text       start:0x0203b8b0 end:0x0203be10
+
+src/YawBox.cpp:
+    .text       start:0x0203bf10 end:0x0203c66c
+
+src/AppearanceInit.cpp:
+    .text       start:0x0203d3b0 end:0x0203e054
+
+src/BackupEEPROM.cpp:
+    .text       start:0x0203e1e0 end:0x0203e65c
+
+src/BG.cpp:
+    .text       start:0x0203e754 end:0x020408bc
+
+src/Bitstream.cpp:
+    .text       start:0x0204095c end:0x02040bf4
+
+src/BMP.cpp:
+    .text       start:0x02040c44 end:0x02041e94
+
+src/Main.h:
+    .text       start:0x020421f4 end:0x0204224c
+
+src/CellGrid.cpp:
+    .text       start:0x020422fc end:0x02042cb8
+
+src/Color.cpp:
+    .text       start:0x02042d84 end:0x02043340
+
+src/Quintessence.h:
+    .text       start:0x020437ac end:0x02043890
+
+src/Flagset.h:
+    .text       start:0x0204396c end:0x02043a10
+
+src/Quintessence.h:
+    .text       start:0x02043cdc end:0x02043db4
+
+src/Commands.cpp:
+    .text       start:0x02043e00 end:0x02044694
+
+src/Flagset.h:
+    .text       start:0x02044740 end:0x020447b8
+
+src/Commands.cpp:
+    .text       start:0x0204488c end:0x02044cd0
+
+src/MenuManager.h:
+    .text       start:0x02045b08 end:0x02045b70
+
+src/Commands.cpp:
+    .text       start:0x02045d38 end:0x02045e58
+
+src/Quintessence.h:
+    .text       start:0x020460c4 end:0x020465d0
+
+src/Commands.cpp:
+    .text       start:0x020465d0 end:0x02046668
+
+src/Decompress.cpp:
+    .text       start:0x020466a0 end:0x02046ae0
+
+src/DynamicTexture.cpp:
+    .text       start:0x02046ae0 end:0x020474e4
+
+src/DynamicPalette.cpp:
+    .text       start:0x0204760c end:0x02047700
+
+src/FileSystem.cpp:
+    .text       start:0x0204789c end:0x02047fac
+
+src/FileAssets.h:
+    .text       start:0x0204873c end:0x0204882c
+
+src/FileAssets.cpp:
+    .text       start:0x02048afc end:0x02049180
+
+src/GripFrameDataManager.cpp:
+    .text       start:0x0204a754 end:0x0204b8ac
+
+src/HotspotList.cpp:
+    .text       start:0x0204b8f8 end:0x0204ba38
+
+src/Huffman.cpp:
+    .text       start:0x0204bae0 end:0x0204bd30
+
+src/InputManager.cpp:
+    .text       start:0x0204c0c0 end:0x0204c44c
+
+src/Main.h:
+    .text       start:0x0204c7a0 end:0x0204c7f8
+
+src/Interrupt.cpp:
+    .text       start:0x0204c834 end:0x0204c8b8
+
+src/ListManager.cpp:
+    .text       start:0x0204ca60 end:0x0204d29c
+
+src/ListManagerParallel.cpp:
+    .text       start:0x0204d3c8 end:0x0204df20
+
+src/ListNodeManager.cpp:
+    .text       start:0x0204e17c end:0x0204e588
+
+src/ListNodeManagerParallel.cpp:
+    .text       start:0x0204e748 end:0x0204eafc
+
+src/Mem.cpp:
+    .text       start:0x0204ebd4 end:0x0204fdd4
+
+src/MenuActorManager.cpp:
+    .text       start:0x020501f4 end:0x020507d0
+
+src/MenuManager.cpp:
+    .text       start:0x02050848 end:0x020515dc
+
+src/Main.h:
+    .text       start:0x02051c38 end:0x02051c90
+
+src/MenuManager.cpp:
+    .text       start:0x02051c90 end:0x02051e6c
+
+src/MenuManager.h:
+    .text       start:0x020526b0 end:0x02052788
+
+src/MenuManager.cpp:
+    .text       start:0x02052788 end:0x02052f04
+
+src/OAM.cpp:
+    .text       start:0x020533ac end:0x020536f4
+
+src/Palette.cpp:
+    .text       start:0x020537cc end:0x02053e44
+
+src/PointLightManager.cpp:
+    .text       start:0x02053f08 end:0x02054360
+
+src/PointLights.cpp:
+    .text       start:0x02054e78 end:0x0205549c
+
+src/ProcessManager.cpp:
+    .text       start:0x020554e8 end:0x0205573c
+
+src/RealTimeClock.cpp:
+    .text       start:0x02056174 end:0x0205628c
+
+src/SaveData.cpp:
+    .text       start:0x02056404 end:0x02056b4c
+
+src/Screen.cpp:
+    .text       start:0x02056cdc end:0x020575c0
+
+src/TouchPanelManager.cpp:
+    .text       start:0x020579ac end:0x02057dfc
+
+src/VRAM.cpp:
+    .text       start:0x02057ed8 end:0x02058568
+
+src/VRAMObject.cpp:
+    .text       start:0x02058700 end:0x0205970c
+
+src/Font.cpp:
+    .text       start:0x0205978c end:0x0205b274
+
+src/Text.cpp:
+    .text       start:0x0205b2c8 end:0x0205b874
+
+src/Quintessence.cpp:
+    .text       start:0x0205b8a0 end:0x0205c410
+
+src/Quintessence.h:
+    .text       start:0x0205c410 end:0x0205c488
+
+src/Quintessence.cpp:
+    .text       start:0x0205c544 end:0x0205d098
+
+src/Quintessence.h:
+    .text       start:0x0205d098 end:0x0205d148
+
+src/Quintessence.cpp:
+    .text       start:0x0205d148 end:0x0205d6fc
+
+src/Assert.h:
+    .text       start:0x0205d6fc end:0x0205d754
+
+src/MenuActorManager.h:
+    .text       start:0x0205d8a0 end:0x0205d918
+
+src/CheatMenuItem.cpp:
+    .text       start:0x0205e5f8 end:0x02060008
+
+src/Assert.h:
+    .text       start:0x020607c0 end:0x0206083c
+
+src/MenuManager.h:
+    .text       start:0x02060bb0 end:0x02060c10
+
+src/FreePlayMenu.cpp:
+    .text       start:0x02061014 end:0x02061444
+
+src/infoMenu.cpp:
+    .text       start:0x02062e90 end:0x02062f6c
+
+src/MBLobby.cpp:
+    .text       start:0x02063a04 end:0x02063b80
+
+src/Sandbox.cpp:
+    .text       start:0x02063e48 end:0x02063ed0
+
+src/StoryModeMenu.cpp:
+    .text       start:0x02065338 end:0x02065784
+
+src/WirelessErrorLobby.cpp:
+    .text       start:0x02065cf8 end:0x02065f04
+
+src/WirelessHostLobby.cpp:
+    .text       start:0x02066168 end:0x0206696c
+
+src/WirelessJoinLobby.cpp:
+    .text       start:0x02066df4 end:0x02067650
+
+src/WirelessInitialLobby.cpp:
+    .text       start:0x02068070 end:0x020681bc
+
+src/WirelessMenuUtil.cpp:
+    .text       start:0x02068438 end:0x02068ea4
+
+src/TitleScreen.cpp:
+    .text       start:0x02069c9c end:0x0206a9bc
+
+src/AStar.cpp:
+    .text       start:0x0206b38c end:0x0206bf94
+
+src/ActorDistanceList.cpp:
+    .text       start:0x0206cea8 end:0x0206d0e0
+
+src/ChapterCompleteMenu.cpp:
+    .text       start:0x0206d370 end:0x0206d7d4
+
+src/CommandProcessShoot.cpp:
+    .text       start:0x0206da80 end:0x0206db74
+
+src/Game.cpp:
+    .text       start:0x0206dd90 end:0x0206de1c
+
+src/Flagset.h:
+    .text       start:0x0206e0c8 end:0x0206e5e0
+
+src/Game.cpp:
+    .text       start:0x0206e72c end:0x0206e87c
+
+src/Flagset.h:
+    .text       start:0x0206e87c end:0x0206e8fc
+
+src/Game.cpp:
+    .text       start:0x0206e8fc end:0x0206e984
+
+src/Flagset.h:
+    .text       start:0x0206e984 end:0x0206ea28
+
+src/GameSubScreenMenu.cpp:
+    .text       start:0x0206f374 end:0x02070220
+
+src/StarField.h:
+    .text       start:0x0207119c end:0x02071200
+
+src/GameSyncUp.cpp:
+    .text       start:0x0207151c end:0x02072ab8
+
+src/HudDisplay.cpp:
+    .text       start:0x0207311c end:0x02073858
+
+src/KitManager.cpp:
+    .text       start:0x02073bdc end:0x02073cd8
+
+src/EquipmentTab.cpp:
+    .text       start:0x0207441c end:0x020746fc
+
+src/Player.cpp:
+    .text       start:0x02074880 end:0x0207497c
+
+src/Scene.cpp:
+    .text       start:0x02074a70 end:0x02075340
+
+src/Quintessence.h:
+    .text       start:0x0207536c end:0x02075600
+
+src/Scene.cpp:
+    .text       start:0x020756d8 end:0x02076b00
+
+src/Assert.h:
+    .text       start:0x02076e50 end:0x02076f48
+
+src/SceneManager.cpp:
+    .text       start:0x02077098 end:0x02078a58
+
+src/AStar.inl:
+    .text       start:0x02078df8 end:0x02078e9c
+
+src/SceneManager.cpp:
+    .text       start:0x020790ac end:0x02079a3c
+
+src/SceneTab.cpp:
+    .text       start:0x02079ef0 end:0x0207a430
+
+src/SensesTab.cpp:
+    .text       start:0x0207a430 end:0x0207a548
+
+src/StudManager.cpp:
+    .text       start:0x0207b6fc end:0x0207b854
+
+src/VRAMObject.h:
+    .text       start:0x0207bdec end:0x0207bec4
+
+src/StudManager.cpp:
+    .text       start:0x0207bfbc end:0x0207c3d4
+
+src/MathDS.cpp:
+    .text       start:0x0207dd94 end:0x0207de08
+
+src/ArenaBattleHud.cpp:
+    .text       start:0x0207ee00 end:0x0207f430
+
+src/ArenaBattleMode.cpp:
+    .text       start:0x020800d0 end:0x02080810
+
+src/AnimAsset.cpp:
+    .text       start:0x020821ec end:0x02082384
+
+src/AnimAsset.h:
+    .text       start:0x02082384 end:0x020823e8
+
+src/AnimAsset.cpp:
+    .text       start:0x02082434 end:0x02082684
+
+src/AnimPlayer.cpp:
+    .text       start:0x020826d8 end:0x02082e20
+
+src/AnimPlayer.inl:
+    .text       start:0x02082e20 end:0x02082e78
+
+src/AnimPlayer.cpp:
+    .text       start:0x02082e78 end:0x02083754
+
+src/Assert.h:
+    .text       start:0x02083914 end:0x02083990
+
+src/Camera3d.cpp:
+    .text       start:0x02083a3c end:0x0208ab34
+
+src/DebugGeometry.cpp:
+    .text       start:0x0208b310 end:0x0208c0f0
+
+src/GeomAsset.cpp:
+    .text       start:0x0208c8e4 end:0x0208c9f4
+
+src/GeomAsset.inl:
+    .text       start:0x0208c9f4 end:0x0208cae8
+
+src/GeomAsset.cpp:
+    .text       start:0x0208cc58 end:0x0208cd64
+
+src/GeomAsset.inl:
+    .text       start:0x0208cd64 end:0x0208cea0
+
+src/GeomAsset.cpp:
+    .text       start:0x0208cef8 end:0x0208dac0
+
+src/GeomAsset.inl:
+    .text       start:0x0208db18 end:0x0208dbf4
+
+src/GeomAsset.cpp:
+    .text       start:0x0208dbf4 end:0x0208e358
+
+src/GeomAssetManager.cpp:
+    .text       start:0x0208e6a0 end:0x0208e770
+
+src/GeomTextureManager.cpp:
+    .text       start:0x0208e890 end:0x0208ec54
+
+src/NitroEngine.cpp:
+    .text       start:0x0209025c end:0x020915dc
+
+src/RigidGeometry.cpp:
+    .text       start:0x02091648 end:0x02091904
+
+src/WirelessManager.cpp:
+    .text       start:0x020937cc end:0x02094a48
+
+src/CommSync.cpp:
+    .text       start:0x02095400 end:0x02095638
+
+src/MultiplayerPackets.cpp:
+    .text       start:0x02096968 end:0x02097b1c
+
+src/WirelessHostWithoutMenu.cpp:
+    .text       start:0x02097bdc end:0x02097dcc
+
+src/Sound.cpp:
+    .text       start:0x02098030 end:0x02098164
+
+src/SoundDS.cpp:
+    .text       start:0x020988c8 end:0x02099e58
+
+src/tempest.cpp:
+    .text       start:0x02099efc end:0x0209c394
+
+src/StaticList.h:
+    .text       start:0x0209c87c end:0x0209ca3c
+
+src/tempest.cpp:
+    .text       start:0x0209cac0 end:0x0209cb80
+
+src/StaticList.h:
+    .text       start:0x0209cb80 end:0x0209cd04
+
+src/tempest.cpp:
+    .text       start:0x0209cfb8 end:0x0209d05c
+
+src/StaticList.h:
+    .text       start:0x0209d24c end:0x0209d300
+
+src/tempest.cpp:
+    .text       start:0x0209d450 end:0x0209d600
+
+src/StaticList.h:
+    .text       start:0x0209d640 end:0x0209d6fc
+
+src/tempest.cpp:
+    .text       start:0x0209d824 end:0x0209d97c
+
+src/tempest_render.cpp:
+    .text       start:0x0209f188 end:0x0209f5f8
+
+src/StaticList.h:
+    .text       start:0x0209f5f8 end:0x0209fc54
+
+src/tempest_render.cpp:
+    .text       start:0x0209fd30 end:0x020a01b0
